@@ -1,0 +1,1 @@
+Comments the variable "error_reporting" in php.ini

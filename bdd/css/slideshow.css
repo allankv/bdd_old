@@ -1,0 +1,45 @@
+.clear {
+clear:both
+}
+
+#gallery {
+position: absolute;
+height:200px;
+top: 129px;
+left: 687px;
+}
+
+#gallery a {
+position: absolute;
+}
+
+#gallery a img {
+border:none;
+}
+
+#gallery a.show {
+z-index:2;
+}
+
+#gallery .caption {
+z-index:3;
+background-color:#000;
+color:#ffffff;
+height:60px;
+width:100%;
+position: absolute;
+left: 5px;
+top: 198px;
+/*right: 354px;*/
+bottom:60px;
+}
+
+#gallery .caption .content {
+margin:5px
+}
+
+#gallery .caption .content h3 {
+margin:0;
+padding:0;
+color:#1DCCEF;
+}

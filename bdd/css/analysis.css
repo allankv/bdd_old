@@ -1,0 +1,80 @@
+.ui-autocomplete-category {
+    color: orange;
+    font-weight: bold;
+    padding: .2em .4em;
+    margin: .8em 0 .2em;
+    line-height: 1.5;
+}
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+}
+#chart4-1 {
+	margin-top: 60px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width:680px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 5px 10px 5px;
+}
+#chart6 {
+	margin-top: 60px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width:620px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 5px 10px 5px;
+}
+.chartTitle {
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px;
+    display: none;
+}
+.chartLegend {
+    width:100%;
+    display:none;
+}
+div #loadingIcon {
+	height: 150px;
+}
+div #loadingIcon div {
+    height: 80px;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+	top: 50%;
+	margin-top: -40px;
+}
+div #loadingIcon div p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(246, 168, 40);
+}
+div #loadingIcon div img {
+    display: block;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pieChart {
+    width: 600px;
+    margin-bottom: -50px;
+    margin-left: -12px;
+    margin-top: 10px;
+}

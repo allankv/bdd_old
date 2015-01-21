@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="en" />
+
+        <link rel="stylesheet" type="text/css" href="/bdd/css/form.css" />
+        	<link rel="stylesheet" href="css/sliders.css">
+        <link rel="stylesheet" type="text/css" href="/bdd/css/interaction.css" />
+        <link rel="stylesheet" type="text/css" href="/bdd/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="/bdd/js/tablesorter/themes/blue/style.css" />
+
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!-- jquery scripts -->
+        <link href="js/jquery/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery/jquery.min.js"></script>
+        <script src="js/jquery/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/slides.min.jquery.js"></script>
+        
+		<!-- JAVASCRIPT -->
+		<script type="text/javascript">
+		  function startSlider(){
+		    $("#slides").slides({play: 5000,pause: 3500,effect: 'fade', fadeSpeed:500, fadeEasing: "easeOutQuad", hoverPause: true});
+		  }
+          $(function() {
+                $( "button").button();                                        
+          });
+          function showBGT(){
+          	$('<div id="bgt">'+
+          			'<img width="350" style="margin-top:10px; margin-left:100px;" src="images/sliders/btt.jpg" alt="" />'+
+          			'<p style="color:#555555;line-height:18px;font-size:13px;padding-right:30px;">'+
+                    	'Errors in taxonomic data are prevented from using this resource that assists the entry of taxonomic names and hierarchies based on <a style="color:#599100" href="http://www.catalogueoflife.org/" target="_blank">Catalog of Life (CoL)</a> database and on a local collection database. '+
+	                    'While filling in a taxon field a list of taxon names is suggested to the user. '+
+	                    'The suggestions displayed are retrieved from the local database using a fuzzy matching technique. '+
+	                    'This technique allows retrieving textual data, which is orthographically similar. '+
+	                    'When selecting a taxon name, its hierarchy is obtained in accordance with the local database. '+
+	                    'If the taxon name typed does not exist in the local database or it is not validated according to CoL, a query is performed into the CoL database. '+
+	                    'Also using fuzzy matching, suggestions of valid taxon names and hierarchies according to CoL are then presented.'+
+	                  '</p>'+
+	           ' </div>').dialog({
+					            modal:true,
+					            title: 'Highlight - BDD Taxon Tool - BGT',
+					            show:'puff',
+					            hide:'fadeOut',
+					            width: 600,
+					            height:500
+					            });
+          }
+          function showBTT(){
+          	$('<div id="btt">'+
+          			'<img width="350" style="margin-top:10px; margin-left:100px;" src="images/sliders/bgt_r.png" alt="" />'+
+          			'<p style="color:#555555;line-height:18px;font-size:13px;padding-right:30px;">'+
+                		'To prevent errors in location data this web-based resource was added to BDD, which is organized into three steps: (1) primary data insertion, (2) data source selection and (3) uncertainty reporting. '+
+                		'In the first step the user fills primary data in one of three ways: typing known geographical coordinates; using a locality description, such as “25 km NNE from New Orleans”; or using a tridimensional interactive map for finding an approximate location. '+
+                		'In the second step primary data is used to obtain multiple complementary information such as latitude, longitude, geodetic datum, altitude, municipality, state and country from three data sources: <a style="color:#599100" href="http://www.biogeomancer.org/" target="_blank">BioGeomancer</a>, <a style="color:#599100" href="http://maps.google.com/" target="_blank">Google Maps</a> and <a style="color:#599100" href="http://www.geonames.org/" target="_blank">GeoNames</a>, which can be selected by the user. '+
+                		'In the third step the user can report the coordinate uncertainty in meters. '+
+                		'A circle representing the uncertainty is plotted in a map to facilitate its visualization.'+
+                	'</p>'+
+	           ' </div>').dialog({
+					            modal:true,
+					            title: 'Highlight - BDD Geo Tool - BGT',
+					            show:'puff',
+					            hide:'fadeOut',
+					            width: 600,
+					            height:500
+					            });
+          }
+          function showSpreadsheet(){
+          	$('<div id="bgt">'+
+          			'<img width="350" style="margin-top:10px; margin-left:100px;" src="images/sliders/spreadsheet_r.jpg" alt="" />'+
+          			'<p style="color:#555555;line-height:18px;font-size:13px;padding-right:30px;">'+
+                		'This tool allows performing the synchronization of species occurrences data between spreadsheets and the BDD. '+
+                		'This synchronization is performed by two services: Import and Export. '+
+                		'The Import service allows insert records from XLS spreadsheets based on <a style="color:#599100" href="http://rs.tdwg.org/dwc/terms/index.htm" target="_blank">DarwinCore</a> to BDD database. '+
+						'The Export service allows downloading a XLS spreadsheet with BDD database species occurrence content.'+
+                	'</p>'+
+	           ' </div>').dialog({
+					            modal:true,
+					            title: 'Highlight - SpreadsheetSync',
+					            show:'puff',
+					            hide:'fadeOut',
+					            width: 600,
+					            height:500
+					            });
+          }
+          function showStatistics(){
+          	$('<div id="bgt">'+
+          			'<img width="350" style="margin-top:10px; margin-left:100px;" src="images/sliders/statistical.jpg" alt="" />'+
+          			'<p style="color:#555555;line-height:18px;font-size:13px;padding-right:30px;">'+
+                		'This tool statistically shows the evolution of BDD data digitization through charts. '+
+                		'It makes it easier to visualise and to interpret important information implicit in the BDD database. '+
+						'These charts allow assessing the evolution of data digitization.'+
+                	'</p>'+
+	           ' </div>').dialog({
+					            modal:true,
+					            title: 'Highlight - Statistical Visualization',
+					            show:'puff',
+					            hide:'fadeOut',
+					            width: 600,
+					            height:500
+					            });
+          }
+          function showFuzzy(){
+          	$('<div id="bgt">'+
+          			'<img width="350" style="margin-top:10px; margin-left:100px;" src="images/sliders/fuzzymatching.jpg" alt="" />'+
+          			'<p style="color:#555555;line-height:18px;font-size:13px;padding-right:30px;">'+
+                		'The BDD is endowed with autocomplete fields with Fuzzy Matching Support. '+
+						'These resources allow suggesting similar terms while the user is typing something in a field. '+
+						'With it, the digitization is streamlined and spelling errors are prevented. '+
+                	'</p>'+
+	           ' </div>').dialog({
+					            modal:true,
+					            title: 'Highlight - Fuzzy Matching',
+					            show:'puff',
+					            hide:'fadeOut',
+					            width: 600,
+					            height:500
+					            });
+          }
+          function showMedia(){
+          	$('<div id="media">'+
+          			'<img width="350" style="margin-top:10px; margin-left:100px;" src="images/sliders/media.jpg" alt="" />'+
+          			'<p style="color:#555555;line-height:18px;font-size:13px;padding-right:30px;">'+
+                		'Reference resources (books, papers, articles), based on <a style="color:#599100" href="http://dublincore.org/" target="_blank">Dublin Core</a>, and multimedia resources (pictures, videos), based on <a style="color:#599100" href="http://www.keytonature.eu/wiki/Audubon_Core" target="_blank">Audubon Core</a>, about species '+
+                		'can be associated to species occurrence records to enrich information about recorded biological facts.'+
+                	'</p>'+ 
+	           ' </div>').dialog({
+					            modal:true,
+					            title: 'Highlight - Multimedia/Bibliographic Resources x Species Occurrences',
+					            show:'puff',
+					            hide:'fadeOut',
+					            width: 600,
+					            height:500
+					            });
+          }
+        </script>
+        
+        <!-- CSS -->
+        <style type="text/css" media="screen">
+		  .slides_container {
+		    width:500px;
+		    height:340px;
+		  }
+		  .slides_container div {
+		    width:500px;
+		    height:340px;
+		    display:block;
+		  }		  
+		</style>
+		
+		<!-- Title -->			
+        <title>Biodiversity Data Digitizer - Site</title>
+    </head>
+
+    <!-- BODY -->
+    <body class="page" onload='startSlider()'>
+        <table style="width:900px;height:79px;background-image:url('images/main/header.jpg');background-repeat:no-repeat;background-position:none;" align="center" cellpadding="0" cellpadding="0">
+            <tr>
+                <td style="width: 70%">
+                    <a href="intro.html">
+                        <img style="border:0px; padding-left:17px;" src="images/main/logo_bdd.png" alt="" />		</a>
+                </td>
+                <td style="width: 30%;padding-right:10px;" align="right">
+                    <br/>
+                    <br/>
+                </td>
+            </tr>
+        </table>
+        
+        <table style="width:900px;background-color:#ffffff;" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    
+                    <table style="width:95%;margin-top:20px;" align="center" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td colspan="2" style="background-color:#f9f9f9;width:355px;padding:15px;text-align:left;font-size:13px;letter-spacing:0.5px;vertical-align:top">
+                                <h3 style="margin:0px;margin-bottom: 10px;font-size:15px;">The Biodiversity Data Digitizer</h3>
+                                <p style="color:#555555;line-height:18px;font-size:13px">The Biodiversity Data Digitizer (BDD) is an information system designed for the easy digitization, manipulation, and dissemination of quality biodiversity data. It stands out for allowing the user to manipulate its data simply and objectively, especially the data from field observations and small collections.</p>
+                                <h2>Data type supported:</h2>                                
+                                	<table style="width:100%;margin-top:0px;background-color:#f9f9f9;" align="center">
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Species occurrences</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Species</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Specimens interactions</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Pollination deficit</td>                                       
+                                    </tr>
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Pollinator monitoring</td>                                       
+                                    </tr>
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Multimedia resources</td>                                       
+                                    </tr>
+                                    <tr>
+                                        <td class="seta"><img src="images/main/seta.png" alt="" /></td><td class="setaconteudo">Reference resources</td>                                       
+                                    </tr>                                    
+                                </table>  
+								<div class="demo" align="left" style="margin-top:20px;">                                                
+                                	<button onclick='location.href="http://bdd.pcs.usp.br/demo/"; return false;'>Try it online</button>
+                                </div>                              
+                            </td>							
+                            <td rowspan="4" style="width:470px;vertical-align: top;" height="260px">
+                            	<div id="slides" style="box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);-webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);">
+									<div class="slides_container">																		
+										<img src="images/sliders/tela_abertura.jpg" width="510" alt="Slide 1"/>										
+										<img src="images/sliders/list.jpg" width="510" alt="Slide 3"/>
+										<img src="images/sliders/cadastro.jpg" width="510" alt="Slide 3"/>
+										<img src="images/sliders/cadastro_interacao.jpg" width="510" alt="Slide 3"/>
+										<img src="images/sliders/mapa.jpg" width="500" alt="Slide 2"/>
+										<img src="images/sliders/taxon_tree.jpg" width="510" alt="Slide 3"/>
+										<img src="images/sliders/time.jpg" width="510" alt="Slide 3"/>
+										<img src="images/sliders/spreadsheet.jpg" width="510" alt="Slide 3"/>
+									</div>
+									<a href="#" class="prev"></a>
+									<a href="#" class="next"></a>
+								</div>                            
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <table style="width:100%;margin-top:30px;margin-bottom:20px;" align="center" cellpadding="0" cellspacing="0">                    	
+                        <tr>
+                            <td colspan="2" style="height:8px;background-color:#f2f2f2;">                            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align:top;padding-left:20px;">
+                            	<h1 align="center"><img src="images/sliders/highlights.gif" width="200" alt="Slide 1"/></h1>
+                                <table style="width:100%;margin-top:15px;" align="center">
+                                    <tr>
+                                        <td style="text-align:center;width:150px;font-size: 11px;vertical-align:middle;"><font color="green"><h3 style="margin:0px;padding:0px;letter-spacing:1px;font-size:16px;">BDD Taxon Tool</h3></font></td>
+                                        <td ><img src="images/main/linha_verde.jpg" alt="" /></td>
+                                        <td style="text-align:center;width:150px;font-size: 11px;vertical-align:middle;"><font color="green"><h3 style="margin:0px;padding:0px;letter-spacing:1px;font-size:16px;">BDD Geo Tool</h3></font></td>
+                                        <td ><img src="images/main/linha_verde.jpg" alt="" /></td>
+                                    </tr>
+                                </table>
+                                <table style="width:100%;margin-top:0px;margin-botton:10px;" align="center">
+                                    <tr>
+                                        <td align="center" ><img width="350" style="margin-top:10px;" src="images/sliders/btt.jpg" alt="" /></td>
+                                        <td align="center"><img width="350" style="margin-top:10px;" src="images/sliders/bgt_r.png" alt="" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        	<h2 style="text-align:center">Streamlining the digitization and improving the data quality of taxon data <a style="margin-left:10px;font-size:10px" href="javascript:showBGT();">[ More... ]</a></h2> 
+                                        </td>
+                                        <td>
+                                        	<h2 style="text-align:center">Streamlining the digitization and improving the data quality of geo data <a style="margin-left:10px;font-size:10px" href="javascript:showBTT()">[ More... ]</a></h2>                                        	
+                                        </td>
+                                    </tr>                                                                                
+                                </table>
+                                
+                                <table style="width:100%;margin-top:15px;" align="center">
+                                    <tr>
+                                        <td style="text-align:center;width:150px;font-size: 11px;vertical-align:middle;"><font color="green"><h3 style="margin:0px;padding:0px;letter-spacing:1px;font-size:16px;">SpreadsheetSync</h3></font></td>
+                                        <td ><img src="images/main/linha_verde.jpg" alt="" /></td>
+                                        <td style="text-align:center;width:150px;font-size: 11px;vertical-align:middle;"><font color="green"><h3 style="margin:0px;padding:0px;letter-spacing:1px;font-size:16px;">Statistical Visualization</h3></font></td>
+                                        <td ><img src="images/main/linha_verde.jpg" alt="" /></td>
+                                    </tr>
+                                </table>
+                                <table style="width:100%;margin-top:0px;" align="center">
+                                    <tr>
+                                        <td align="center"><img width="350" style="margin-top:10px;" src="images/sliders/spreadsheet_r.jpg" alt="" /></td>
+                                        <td align="center"><img width="350" style="margin-top:10px;" src="images/sliders/statistical.jpg" alt="" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        	<h2 style="text-align:center">Sending and receiving species occurrences data in a spreadsheet format <a style="margin-left:10px;font-size:10px" href="javascript:showSpreadsheet();">[ More... ]</a></h2>                                        	
+                                        </td>
+                                        <td>
+                                        	<h2 style="text-align:center">Statistically visualising the progress of collections digitization <a style="margin-left:10px;font-size:10px" href="javascript:showStatistics();">[ More... ]</a></h2>                                        	
+                                        </td>
+                                    </tr>                                                                                
+                                </table>
+                                
+                                <table style="width:100%;margin-top:15px;" align="center">
+                                    <tr>
+                                        <td style="text-align:center;width:150px;font-size: 11px;vertical-align:middle;"><font color="green"><h3 style="margin:0px;padding:0px;letter-spacing:1px;font-size:16px;">Fuzzy Matching Support</h3></font></td>
+                                        <td ><img src="images/main/linha_verde.jpg" alt="" /></td>
+                                        <td style="text-align:center;width:150px;font-size: 11px;vertical-align:middle;"><font color="green"><h3 style="margin:0px;padding:0px;letter-spacing:1px;font-size:16px;">Species Occurrences x Multimedia/Bibliographic Resources </h3></font></td>
+                                        <td ><img src="images/main/linha_verde.jpg" alt="" /></td>
+                                    </tr>
+                                </table>
+                                <table style="width:100%;margin-top:0px;" align="center">
+                                    <tr>
+                                        <td align="center"><img width="350" style="margin-top:10px;" src="images/sliders/fuzzymatching.jpg" alt="" /></td>
+                                        <td align="center"><img width="350" style="margin-top:10px;" src="images/sliders/media.jpg" alt="" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        	<h2 style="text-align:center;margin-right:10px;">Facilitating digitization by means of searching similar words previously digitized <a style="margin-left:10px;font-size:10px" href="javascript:showFuzzy();">[ More... ]</a></h2>                                        	
+                                        </td>
+                                        <td>
+                                        	<h2 style="text-align:center;margin-left:10px;">Associating multimedia and bibliographic resources to species occurrences records <a style="margin-left:10px;font-size:10px" href="javascript:showMedia();">[ More... ]</a></h2>                                        	
+                                        </td>
+                                    </tr>                                                                                
+                                </table>
+                                
+                            </td>
+                            
+                        </tr>
+                    </table> 
+                                   
+                </td>
+            </tr>
+        </table>
+        
+        <table style="width:900px;" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td style="text-align:center;background-color:#dddddd;letter-spacing:0.5px;height:40px;color:gray;font-size:10px;font-family: Verdana;">
+                    Developed by LAA - Laborat&oacute;rio de Automa&ccedil;&atilde;o Agr&iacute;cola da Escola Polit&eacute;cnica da USP - Brazil. Powered by <a href="http://www.yiiframework.com/" target="_blank">Yii Framework</a>.                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+

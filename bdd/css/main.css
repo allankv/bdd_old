@@ -1,0 +1,90 @@
+/* begin overall style */
+body {	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Lucida, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+	background: #ffffff url(../images/main/background_main.jpg) repeat-x left top;
+}
+
+td{
+        margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Lucida, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+}
+
+div{
+        margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Lucida, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+}
+
+.form
+{
+	-moz-border-radius:7px;
+	border: 3px solid #EEE;
+	background:#F5F5F5;
+	padding:10px;
+	margin: 0;
+}
+
+table{
+    border:0px;
+    background-color: #ffffff;
+}
+
+h1{
+    font-size: 16px;
+    color:green;
+    letter-spacing: 1px;
+    text-align:left;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 12px;
+    color:green;
+    letter-spacing: 1px;
+    text-align:left;
+    text-transform: uppercase;
+}
+
+h3{
+    color:green;
+    letter-spacing: 0.5px;
+    text-align:left;
+}
+
+h4{
+    color:green;
+    text-align:left;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/***************************** LINK LINGUAS *********************************/
+
+a.lang, a.lang:visited {
+	color: #aaaaaa;
+        font-size: 11px;
+	text-decoration: none;
+}
+
+a.lang:hover {
+        color: #ffffff;
+	text-decoration: underline;
+}
+
+
+a, a:visited {
+    border:0px;
+    outline: none;
+}
+
+a:hover {
+    border:0px;
+}

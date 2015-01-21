@@ -1,0 +1,29 @@
+.linhaComMouse{
+	background-color: #ADCEFF;
+	color: black;
+}
+
+.linhaSemMouse{
+	background-color: white;
+	color: black;	
+}	
+	
+.linhaSelecionada{
+	background-color: #666666;
+	color:white;
+}
+
+.headerTabela{
+	background-color: #EEEEEE;
+	color:black;
+	font-weight: bold;	
+	
+}
+
+.celulaDestacada{
+	font-weight: bold;
+}
+
+.erroInteracao{	
+	color: red; 	
+}

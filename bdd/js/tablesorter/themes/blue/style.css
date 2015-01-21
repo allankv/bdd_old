@@ -1,0 +1,36 @@
+/* tables */
+table.tablesorter {
+    font-family:arial;
+    background-color: #CDCDCD;
+    margin:20px auto 20px auto;
+    font-size: 8pt;
+    text-align: left;
+    display:table;
+    width:74%;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 0.5px solid #dddddd;
+    font-size: 8pt;
+    letter-spacing: 1px;
+    vertical-align:middle;
+    display:table-row;
+    padding:5px;
+}
+table.tablesorter thead tr .header {
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    display:table-cell;
+}
+
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    display: table-cell;
+    text-indent:5px;
+}

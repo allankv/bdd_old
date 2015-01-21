@@ -1,0 +1,27 @@
+
+
+<?php echo $this->renderPartial('_form', array(
+	'interactionelements'=>$interactionelements,
+	'recordlevelelements'=>$recordlevelelements,
+	'idrecordlevelelement'=>$idrecordlevelelement,
+	'institutionalcode'=>$institutionalcode,
+	'basisofrecord'=>$basisofrecord,
+	'institutioncode1'=>$institutioncode1,
+	'collectioncode1'=>$collectioncode1,
+	'collectioncode1'=>$collectioncode1,
+	'scientificname1'=>$scientificname1,
+	'basisofrecord1'=>$basisofrecord1,				
+	'institutioncode2'=>$institutioncode2,
+	'collectioncode2'=>$collectioncode2,
+	'scientificname2'=>$scientificname2,
+	'basisofrecord2'=>$basisofrecord2,	
+	'interactionelementsList'=>$interactionelementsList,
+	'interactiontypes'=>$interactiontypes,
+	'recordlevelelementSpecimen1'=>$recordlevelelementSpecimen1,
+	'recordlevelelementSpecimen2'=>$recordlevelelementSpecimen2,
+	'update'=>false,
+	'pages'=>$pages,
+	'inserindoNovamente'=>$inserindoNovamente,	
+	'msgType'=>$msgType,
+	'totalRegistros'=>$totalRegistros,
+)); ?>

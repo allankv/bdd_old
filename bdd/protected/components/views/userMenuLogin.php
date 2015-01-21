@@ -1,0 +1,1 @@
+<?php echo CHtml::submitButton(Yii::t('yii', "Logout"), array("style"=>"margin-top:2px;", 'submit'=>'','params'=>array('command'=>'logout'),)); ?>

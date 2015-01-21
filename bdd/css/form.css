@@ -1,0 +1,1434 @@
+div.attention {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 95%;
+    font-size: 10px;
+    color: #b18422;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+div.yiiForm {
+    position: relative;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+div.yiiForm select {
+    width: 205px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+/*div.yiiForm a, div.yiiForm a:visited {
+    text-decoration: none;
+    color:#000000;
+    font-size: 12px;
+
+}
+div.yiiForm a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #dddddd;
+    color:#000000;
+}*/
+div.yiiForm span.required {
+    color: red;
+    font-size: 13px;
+    font-family: Verdana;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+div.normalFields {
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dddddd;
+}
+table.normalFieldsTable {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: transparent;
+}
+div.privateRecord {
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    width: 98.5%;
+    text-align: center;
+    background-color: #ffeeee;
+    border: 1px solid #CC8877;
+    padding: 10px 5px;
+    margin: 10px auto;
+    position: relative;
+}
+div.privateRecord .title {
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.6px;
+}
+div.privateRecord .icon {
+    position: absolute;
+    right: 26%;
+    top: 6px;
+}
+div.saveButton {
+    border: 1px solid #F6A828;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    width: 98.5%;
+    text-align: right;
+    background-color: #f4efd9;
+    padding: 5px;
+    margin: 10px auto;
+}
+.tablelist {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: transparent;
+}
+.tablerequired {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4efd9;
+    border: 1px solid #F6A828;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+.subgroup {
+    font-weight: bold;
+    padding: 4px;
+    padding-left: 10px;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.tablelabelcel {
+    width: 180px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: transparent;
+    letter-spacing: 0.6px;
+    margin-left: auto;
+    height: 27px;
+}
+.tablemiddlecel {
+    width: 35px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}
+.tablefieldcel {
+    text-align: left;
+    width: 210px;
+    vertical-align: middle;
+    background-color: transparent;
+}
+input.textboxnumber {
+    width: 198px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+input.ui-autocomplete-input {
+    width: 198px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+input.textboxtext {
+    width: 198px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+input.timeordate {
+    width: 90px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+input.textfield {
+    width: 198px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+textarea {
+    width: 200px;
+    height: 50px;
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 12px;
+}
+.texthelp {
+    font-family: Arial, Helvetica, Lucida, sans-serif;
+    font-size: 13px;
+    padding: 35px;
+}
+div.actionbar {
+    text-align: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    color: #b18422;
+    background-color: #ceedcc;
+    border: 2px solid #9fc39c;
+    padding: 10px;
+    font-weight: bold;
+}
+div.actionbar a, div.actionbar a:visited {
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+}
+div.actionbar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #dddddd;
+    color: #000000;
+}
+div.foundbar {
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    vertical-align: middle;
+    padding: 8px;
+    padding-left: 20px;
+    width: 655px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+}
+div.navbar {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+.tablelabelcelsuccess {
+    /*display: table-cell;*/
+    width: 160px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tablefieldcelsuccess {
+    text-align: left;
+    width: auto;
+    vertical-align: middle;
+    background-color: transparent;
+    letter-spacing: 0.6px;
+    margin-left: auto;
+    height: 24px;
+    padding-left: 10px;
+}
+table.list thead tr th {
+    text-align: center;
+    font-weight: bold;
+    color: #885522;
+    background-color: #F4EFD9;
+    border: 1px solid #F6A828;
+    padding: 6px;
+    font-size: 10pt;
+}
+table.list td {
+    border: 1px solid #dddddd;
+    padding: 3px;
+}
+table.list {
+    border-collapse: collapse;
+    font-family: arial;
+    margin: 20px auto 20px auto;
+    font-size: 8pt;
+    text-align: left;
+    width: 675px;
+    padding: 0;
+}
+div.item {
+    text-align: center;
+    padding: 15px;
+}
+.acIcon {
+    width: 20px;
+    float: left;
+}
+.entryListBox {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: #F4EFD9;
+    padding: 5px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #F6A828;
+    -moz-box-shadow: 3px 3px 5px #CCAA77;
+    -webkit-box-shadow: 3px 3px 5px #CCAA77;
+    box-shadow: 3px 3px 5px #CCAA77;
+}
+div.entryListHeader {
+    color: #885522;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+div.entryField {
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+div.entryText {
+    float: left;
+    width: 80%;
+    padding-top: 5px;
+    padding-left: 2px;
+    overflow: hidden;
+}
+div.entryRemove {
+    width: 15%;
+    float: right;
+}
+/* A PARTIR DAQUI, POR LUCAS */
+div.introText {
+    width: 675px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.introText p {
+    text-align: left;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    font-family: Arial;
+}
+ul.iconJQuery {
+    margin: 0;
+    padding: 0;
+    height: 16px;
+    width: 24px;
+}
+ul.iconJQuery li {
+    padding: 4px 0;
+    cursor: pointer;
+    float: left;
+    list-style: none;
+}
+ul.iconJQuery li span {
+    float: left;
+    margin: 0 4px;
+}
+div.btnShow {
+    margin-left: 32px;
+    margin-right: 10px;
+    float: left;
+}
+div.btnUpdate {
+    margin-right: 10px;
+    float: left;
+}
+div.btnDelete {
+    float: left
+}
+div.btnDownload {
+    float: left;
+    margin-right: 10px;
+}
+div.btnRestricted {
+
+}
+div.btnRelate {
+    margin-left: 60px;
+    margin-right: 10px;
+    float: left;
+}
+div.btnSelect {
+    margin-left: 13px;
+    float: left;
+}
+div#interactionLeft, div#interactionMiddle, div#interactionRight {
+    opacity: 1;
+    font-weight: bold;
+    width: 240px;
+    height: 140px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #F4EFD9;
+    padding: 15px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #f3f3f3;
+}
+div#interactionLeft div.title, div#interactionRight div.title, div#interactionMiddle div.title {
+    font-weight: bold;
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
+    color: green;
+    font-size: 13px;
+}
+div#interactionLeft div.icon, div#interactionRight div.icon, div#interactionMiddle div.icon {
+    float: right;
+    margin-right: 3px;
+}
+div#interactionLeft div.key, div#interactionRight div.key, div#interactionMiddle div.key {
+    width: 47%;
+    float: left;
+    margin-top: 8px;
+    font-style: italic;
+}
+div#interactionLeft div.value, div#interactionRight div.value, div#interactionMiddle div.value {
+    width: 45%;
+    float: right;
+    margin-top: 8px;
+    font-weight: normal;
+}
+div#specimenFilters {
+    width: 805px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+div#interaction {
+    width: 805px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 0.4em 0.4em 0.4em 0.4em;
+    -moz-border-radius-topleft: 0.4em;
+    -moz-border-radius-topright: 0.4em;
+    -moz-border-radius-bottomleft: 0.4em;
+    -moz-border-radius-bottomright: 0.4em;
+}
+div#interaction div.icon {
+    margin-left: 782px;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+div#interaction div.key {
+    float: left;
+    padding-top: 3px;
+    margin-top: 8px;
+    text-align: right;
+    width: 200px;
+}
+div#interaction div.value {
+    float: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    text-align: left;
+    width: 200px;
+}
+div#interaction div.interactionFields {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#exportLeft, div#exportMiddle, div#exportRight {
+    position: relative;
+    opacity: 1;
+    font-weight: bold;
+    width: 240px;
+    height: 140px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #F4EFD9;
+    padding: 15px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #f3f3f3;
+}
+div#exportLeft div.title, div#exportRight div.title, div#exportMiddle div.title {
+    font-weight: bold;
+    float: left;
+    margin-top: 8px;
+    margin-right: 8px;
+    color: green;
+    font-size: 13px;
+}
+div#exportLeft div.icon1, div#exportMiddle div.icon1 {
+    float: right;
+    margin-right: 3px;
+}
+div#exportLeft div.icon2, div#exportMiddle div.icon2 {
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+}
+div#exportLeft div.records {
+    margin-top: 10px
+}
+div#exportMiddle div.columns {
+    margin-top: 10px
+}
+div#exportFilters {
+    width: 805px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+div#exportFilters div.filterLabel {
+    margin-left: 39px;
+    margin-top: 9px;
+}
+div#exportFilters div.filterField {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+div#exportFilters div.filterList {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+div#exportColumns {
+    width: 815px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+div#exportEnd {
+    width: 805px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+div.exportCheckbox {
+    float: left;
+    margin-top: 3px;
+    margin-left: 52px;
+    width: 350px;
+}
+div.exportCheckbox div.icon {
+    float: left;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+div.exportCheckbox div.label {
+    float: left;
+    margin-top: 1px;
+}
+div#result {
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#divlink {
+    float: right;
+    position: relative;
+    left: -50%;
+}
+div#divlink a {
+    color: #885522;
+    opacity: 0.8;
+    text-decoration: none;
+}
+div#divlink a:hover {
+    opacity: 1
+}
+div#divlink a:visited {
+    opacity: 0.4
+}
+div#sliderRecordsPerFile {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#exportEnd div.maxrecordsperfile {
+    float: left;
+    font-weight: bold;
+    margin-left: 165px;
+}
+div#exportEnd div.estimatedTime {
+    float: right;
+    font-weight: bold;
+    margin-right: 165px;
+}
+div#exportRight div.maxrecordsperfile {
+    font-weight: bold;
+    margin-top: 10px;
+}
+div#exportRight div.estimatedTime {
+    font-weight: bold;
+    margin-top: 10px;
+}
+div#exportRight div.numfile {
+    font-weight: bold;
+    margin-top: 10px;
+}
+div.importContainer {
+    height: 125px;
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#importLoading {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #F8F7F4;
+    padding: 20px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+    -moz-box-shadow: 3px 3px 5px #CCAA77;
+    -webkit-box-shadow: 3px 3px 5px #CCAA77;
+    box-shadow: 3px 3px 5px #CCAA77;
+}
+div#importLoading div.loading {
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    font-family: Arial;
+    margin: 5px auto 10px auto;
+    font-weight: bold;
+}
+div.filter {
+    width: 675px;
+    background-color: #F4EFD9;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #F6A828;
+}
+div.filterLabel {
+    width: 35px;
+    float: left;
+    text-align: right;
+    margin-top: 3px;
+}
+div.filterMiddle {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 3px;
+    width: 20px;
+    float: left;
+}
+div.filterField {
+    float: left;
+    width: 200px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+div.slider {
+    width: 420px;
+    float: right;
+}
+div.newslider {
+    margin-top: 47px;
+    margin-right: 40px;
+    height: 255px;
+    float: right;
+}
+div.filterInterval {
+    margin-top: 3px;
+    margin-right: 10px;
+    float: right;
+}
+div.filterList {
+    margin-left: 8px
+}
+div.filterFloat {
+    width: 400px;
+    margin-top: 5px;
+    margin-right: 10px;
+    background-color: #F8F7F4;
+    padding: 5px;
+    color: #885522;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+    -moz-box-shadow: 3px 3px 5px #CCAA77;
+    -webkit-box-shadow: 3px 3px 5px #CCAA77;
+    box-shadow: 3px 3px 5px #CCAA77;
+}
+div.filterContent {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 8px;
+    float: left;
+}
+div.filterImage {
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: 2px;
+    float: right;
+}
+div.filterOR {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #F6A828;
+    font-size: 8pt;
+}
+div.filterAND {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #F6A828;
+    font-size: 8pt;
+}
+div.tip-twitter {
+    opacity: 1;
+    width: 200px;
+    font-weight: normal;
+    background-color: #F4EFD9;
+    color: #000000;
+    z-index: 5;
+    border: 1px solid #F6A828;
+}
+div.tipDiv {
+    height: 30px;
+    font-weight: normal;
+}
+div.tipKey {
+    float: left;
+    margin-right: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+div.tipValue {
+    float: left
+}
+div.legendbar {
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    vertical-align: middle;
+    padding: 15px;
+    width: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F4EFD9;
+    border: 1px solid #F6A828;
+}
+div.showIconLegend {
+    float: left;
+    margin-left: 85px;
+    margin-right: 10px;
+}
+div.showIconLegendText {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+div.updateIconLegend {
+    float: left;
+    margin-right: 10px;
+}
+div.updateIconLegendText {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+div.deleteIconLegend {
+    float: left;
+    margin-right: 10px;
+}
+div.deleteIconLegendText {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+div.downloadIconLegend {
+    float: left;
+    margin-right: 10px;
+}
+div.downloadIconLegendText {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+div.privateIconLegend {
+    float: left;
+    margin-right: 10px;
+}
+div.privateIconLegendText {
+    float: left;
+    margin-top: 6px;
+}
+div.relateIconLegend {
+    float: left;
+    margin-right: 10px;
+}
+div.relateIconLegendText {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+div.titleBGT {
+    float: left;
+    width: 280px;
+    height: 100px;
+    margin-left: 15px;
+}
+div.titleBGT img {
+    margin-top: 10px;
+    margin-left: 47px;
+}
+div.titleBGT div.title {
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 11pt;
+    color: #ffbc12;
+    text-align: center;
+    margin-top: 3px;
+}
+div.searchBGT {
+    float: left;
+    width: 230px;
+    height: 100px;
+    margin-top: 6px;
+    margin-left: 15px;
+    background-color: #193728;
+    padding: 5px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+div.searchBGT div.title {
+    font-family: Arial;
+    font-size: 11pt;
+    color: #ffbc12;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+div.searchBGT div.box {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+div.searchBGT div.button {
+    text-align: center
+}
+div.dataBGT {
+    float: left;
+    width: 440px;
+    height: 100px;
+    margin-top: 6px;
+    margin-left: 15px;
+    background-color: #193728;
+    padding: 5px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
+div.dataBGT div.key {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #ffbc12;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+div.dataBGT div.value {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #FFFFFF;
+    height: 20px;
+    width: 140px;
+    margin-left: 5px;
+}
+div.statusBGT {
+    background-color: #272727;
+    height: 20px;
+    width: 1065px;
+    margin-top: 5px;
+}
+div.statusBGT div.key {
+    float: left;
+    font-family: Arial;
+    font-size: 8pt;
+    color: #ffbc12;
+    margin-left: 120px;
+    margin-top: 2px;
+    width: 55px;
+}
+div.statusBGT div.value {
+    float: left;
+    font-family: Arial;
+    font-size: 8pt;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 140px;
+}
+div.panelBGT {
+    background-image: url('../images/bgBGT.jpg');
+    background-repeat: repeat-x;
+    height: 140px;
+}
+div.map3d {
+    height: 490px
+}
+div.captionMedia {
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    padding: 10px;
+    background-color: #F4EFD9;
+    border: 1px solid #F6A828;
+    width: 22px;
+}
+div.infoMedia div.key {
+    float: left;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #008000;
+    margin-top: 4px;
+}
+div.infoMedia div.value {
+    float: right;
+    font-family: Arial;
+    font-size: 10pt;
+    margin-top: 4px;
+}
+div.captionMedia div.key {
+    float: left;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #008000;
+    margin-top: 4px;
+}
+div.captionMedia div.value {
+    float: right;
+    font-family: Arial;
+    font-size: 10pt;
+    margin-top: 4px;
+}
+div.btnUpdateMedia {
+    float: right;
+    margin-top: 5px;
+}
+div.btnDeleteMedia {
+    float: right;
+    margin-top: 5px;
+}
+div.btnRelateMedia {
+    float: right;
+    margin-top: 5px;
+}
+div.btnDownloadMedia {
+    float: right;
+    margin-top: 5px;
+}
+div.btnInfoMedia {
+    float: right;
+    margin-top: 5px;
+}
+div.userPanelContainer {
+    width: 880px;
+    height: 800px;
+}
+div.userPanelContainer div.title {
+    margin-top: 14px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #885522;
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+}
+div.userPanelContainer div.text {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #000;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 9pt;
+    width: 230px;
+}
+div.userPanelMap {
+    height: 440px;
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+    -moz-box-shadow: 5px 5px 9px #AAAAAA;
+    -webkit-box-shadow: 5px 5px 9px #AAAAAA;
+    box-shadow: 5px 5px 9px #AAAAAA;
+}
+div#ccListPane {
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    float: right;
+    background-color: #F8F7F4;
+    padding: 11px 11px 15px 11px;
+    color: #885522;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+    -moz-box-shadow: 3px 3px 5px #CCAA77;
+    -webkit-box-shadow: 3px 3px 5px #CCAA77;
+    box-shadow: 3px 3px 5px #CCAA77;
+}
+div#ccListPane div.title {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bold;
+}
+div#icInfo {
+    width: 250px;
+    float: right;
+    background-color: #F8F7F4;
+    padding: 11px;
+    color: #885522;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+    -moz-box-shadow: 3px 3px 5px #CCAA77;
+    -webkit-box-shadow: 3px 3px 5px #CCAA77;
+    box-shadow: 3px 3px 5px #CCAA77;
+}
+div.collCodeBtn {
+    margin-top: 10px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.institutionCarouselItem {
+    cursor: pointer;
+    height: 30px;
+    width: 183px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #F4EFD9;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: #336600;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+    -moz-box-shadow: 3px 3px 3px #CCAA77;
+    -webkit-box-shadow: 3px 3px 3px #CCAA77;
+    box-shadow: 3px 3px 3px #CCAA77;
+}
+div.collectionCarouselItem {
+    cursor: pointer;
+    height: 30px;
+    width: 183px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #F4EFD9;
+    padding-top: 5px;
+    margin-top: 20px;
+    color: #336600;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+    -moz-box-shadow: 3px 3px 3px #CCAA77;
+    -webkit-box-shadow: 3px 3px 3px #CCAA77;
+    box-shadow: 3px 3px 3px #CCAA77;
+}
+div.collectionCarouselNoItem, div.institutionCarouselNoItem {
+    opacity: 1;
+    height: 30px;
+    width: 183px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #F4EFD9;
+    padding-top: 5px;
+    margin-top: 23px;
+    color: #336600;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #DDCCAA;
+}
+.fieldsTable {
+    float: left;
+    width: 680px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    background-color: transparent;
+    border: 1px solid #CCCCCC;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.fieldsTable .tablelabelcel {
+    width: 250px
+}
+.mainFieldsTable {
+    float: left;
+    width: 680px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #F6A828;
+    background-color: #f4efd9;
+}
+div#geoToolLeft, div#geoToolRight, div#geoToolMiddle {
+    opacity: 1;
+    font-weight: bold;
+    width: 205px;
+    height: 205px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #F4EFD9;
+    padding: 11px;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border: 1px solid #f3f3f3;
+}
+div#geoToolLeft div.title, div#geoToolRight div.title, div#geoToolMiddle div.title {
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    color: #885522;
+    font-size: 13px;
+}
+div#geoToolLeft div.key, div#geoToolRight div.key, div#geoToolMiddle div.key {
+    width: 30%;
+    float: left;
+    text-align: right;
+    margin-top: 8px;
+    padding-top: 3px;
+}
+div#geoToolLeft div.value, div#geoToolRight div.value, div#geoToolMiddle div.value {
+    width: 69%;
+    float: right;
+    margin-top: 8px;
+    font-weight: normal;
+}
+div#geoToolLeft div.sub, div#geoToolRight div.sub {
+    background-color: #FFFFEE;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin-bottom: 7px;
+    padding: 2px 8px 8px 2px;
+}
+table.geoToolMain {
+    margin: 10px auto;
+    background-color: transparent;
+    font-weight: bold;
+}
+table.geoToolMain td {
+    padding: 2px
+}
+.geoToolLoading {
+    font-family: Arial;
+    margin: 5px auto 10px auto;
+    font-weight: bold;
+}
+.geoIcon {
+    float: right;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.geoUnselected {
+    opacity: 0.65
+}
+.geoTitle {
+    color: #FFFFFF;
+    background-color: #885522;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+.geoTitle .abbr {
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 4px;
+}
+.geoStepTitle {
+    background-color: #F4EFD9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+.geoStepTitle .number {
+    float: left;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 4px;
+    color: #337755;
+}
+.geoStepTitle .title {
+    float: left;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+.georefResult {
+    float: left;
+    width: 680px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #F6A828;
+    background-color: #f4efd9;
+}
+.georefResult table {
+    float: left;
+    margin-left: 40px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.georefResult table td {
+    padding: 2px
+}
+.georefResult .map {
+    margin-left: 40px;
+    float: left;
+    -moz-box-shadow: 5px 5px 9px #AAAAAA;
+    -webkit-box-shadow: 5px 5px 9px #AAAAAA;
+    box-shadow: 5px 5px 9px #AAAAAA;
+}
+#staticMap {
+    -moz-box-shadow: 5px 5px 9px #AAAAAA;
+    -webkit-box-shadow: 5px 5px 9px #AAAAAA;
+    box-shadow: 5px 5px 9px #AAAAAA;
+}
+.taxonIcon {
+    float: right;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.taxonUnselected {
+    opacity: 0.65
+}
+.taxonTitle {
+    color: #FFFFFF;
+    background-color: #885522;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+.taxonTitle .abbr {
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 4px;
+}
+.taxonStepTitle {
+    background-color: #F4EFD9;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+.taxonStepTitle .number {
+    float: left;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 4px;
+    color: #337755;
+}
+.taxonStepTitle .title {
+    float: left;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+#taxonNameStep div.sub {
+    background-color: #FFFFEE;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 10px;
+    height: 20px;
+    width: 330px;
+    margin: 10px auto;
+}
+div#taxonNameLeft {
+    float: left;
+    margin-left: 10px;
+    text-align: right;
+    margin-top: 3px;
+    font-weight: bold;
+}
+div#taxonNameMiddle {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+div#taxonNameRight {
+    float: left
+}
+#suggestionNameStep div.sub {
+    float: left;
+    background-color: #FFFFEE;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+}
+#suggestionNameStep div.title {
+    color: #337755;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#suggestionHierarchyStep div.sub {
+    float: left;
+    background-color: #FFFFEE;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+}
+#suggestionHierarchyStep div.title {
+    color: #337755;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.scrollable {
+    height: 500px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+div.scrollable #list {
+    width: 100%;
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin: 0;
+    top: 0;
+    position: relative;
+    height: 100%;
+}
+div.scrollable #list li {
+    padding: 5px 0;
+    display: block;
+    cursor: hand;
+    cursor: pointer;
+}
+div.scrollable #list li a {
+    text-align: left;
+    background-color: #F4EFD9;
+    color: #000;
+    font-family: Verdana;
+    font-size: 10px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    width: 300px;
+}
+div.newHierarchyLeft {
+    float: left;
+    width: 240px;
+    text-align: right;
+    margin-top: 7px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+div.newHierarchyMiddle {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7px;
+    padding-top: 4px;
+}
+div.newHierarchyRight {
+    float: left;
+    margin-top: 7px;
+}
+div.introPanel {	
+	margin: 10px auto 0 35px;
+    padding: 5px;
+    width: 826px;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+}
+div.introPanel b {
+	color: green;
+	font-size: 13px;
+}
+div.overflow {
+	overflow:scroll;
+	float: left; 
+	width: 770px;
+	height: 670px;
+}
+.tablerequired {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f4efd9;
+    border: 1px solid #F6A828;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+}
